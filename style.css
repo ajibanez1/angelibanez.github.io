@@ -94,3 +94,9 @@ ul {
 ul li {
     margin-bottom: 8px;
 }
+img {
+    width: 80%; /* makes the image responsive */
+    max-width: 600px; /* limits the width to 600px */
+    border: 5px solid #333; /* adds a border around the image */
+    border-radius: 10px; 
+}
