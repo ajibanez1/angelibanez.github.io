@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+}
+
+/* Header Styling */
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+}
+
+section#about-me {
+    border-left: 5px solid #4A90E2;
+    padding-left: 15px;
+}
+
+section#goal {
+    border-left: 5px solid #d7e60a;
+    padding-left: 15px;
+}
+section#how {
+    border-left: 5px solid #2D9C3C;
+    padding-left: 15px;
+}
+section#solo {
+    border-left: 5px solid #fd1515;
+    padding-left: 15px;
+}
+section#group {
+    border-left: 5px solid #000000;
+    padding-left: 15px;
+}
+section#Leet {
+    border-left: 5px solid #fd15cb;
+    padding-left: 15px;
+}
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4A90E2;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* List Styling */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
